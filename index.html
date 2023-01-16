@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <p class="nav-title">Awesome Books</p>
+      <ul class="nav-links">
+        <li class="nav-link nav-list"><a class='a-list' href='#list-section'> Book List</a></li>
+        <div class="line"></div>
+        <li class="nav-link nav-add"><a class='a-add' href='#add-section'>Add a Book</a></li>
+        <div class="line"></div>
+        <li class="nav-link nav-contact"><a class='a-contact' href='#contact-section'> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="date-display"></div>
+  <section class="sections">
+  <div class="list-section hidden" id="list-section">
+    <div class="library-title">
+      <h1 class="title-text">All Awesome books</h1>
+      </div>
+    <div class="library" id="book-list">
+  </div>
+  </div>
+  <div class="add-section hidden" id="add-section">
+    <div class="form-add-wrapper">
+      <h2 class="title-form">Add a new book</h2>
+      <form class="form-add">
+        <div class="add-title">
+          <input
+          type="text"
+          placeholder="Title"
+          class="add-title-input">
+        </div>
+        <div class="add-author">
+          <input
+          type="text"
+          placeholder="Author"
+          class="add-author-input">
+        </div>
+        <button class="add-book-btn">Add</button>
+      </div>
+    </div>
+  <div class="contact-section hidden" id="contact-section">
+    <h1 class="contact-title">Contact information</h1>
+    <p class="">Do you have any questions or you just want to say "Hello"?</p>
+    <p>You can reach out to us!</p>
+    <ul>
+      <li>Our email andrearivaspalacios@gmail.com</li>
+      <li>Our phone number: 089875789</li>
+      <li>Our address:St Lowrence 45, 1b, London, UK</li>
+    </ul>
+  </div>
+</section>
+  <footer>
+    <div class="copyright-container">
+      <p class="copy-text">Copyright 2023 &#169; Andrea Rivas Palacios & Okolo Oshoke</p>
+    </div>
+  </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
